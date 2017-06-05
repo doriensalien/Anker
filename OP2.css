@@ -6,7 +6,7 @@ body{
 
 #kader{
   width: 70%;
-  height: 1000px;
+  height: 1200px;
   border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +36,7 @@ body{
 
 .drie {
   left: 1150px;
-  top: -1300px
+  top: -1300px;
 }
 
 /*
@@ -94,7 +94,7 @@ h5{
   font-size: 1.9em;
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 70px;
   font-weight: bold;
   color: #24429E;
 }
@@ -102,6 +102,15 @@ h5{
 h1{
   color: black;
   font-size: 1.5em;
+}
+
+.watis{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 
 .teksthome{
@@ -217,19 +226,26 @@ h4{
   clear:both;
   text-align: center;
 }
+
+.geheel{
+  clear: both;
+}
 .albumkader{
+  float: left;
+  width: 23%;
   height: 250px;
   margin-bottom: 100px;
   margin-top: 10px;
+  margin-right: 2%;
   /*border: 1px solid black;*/
 }
 
-#laatste{
+.laatste{
   margin-right: 0px;
 }
 
 .album{
-  width: 20.82%;
+  width: 100%;
   /*border: 1px solid black;*/
   float: left;
   margin-right: 5.55%;
@@ -239,7 +255,7 @@ h4{
 
 #kadermain{
   width: 70%;
-  height: 1800px;
+  height: 3300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -1400px;
@@ -248,7 +264,8 @@ h4{
 }
 
 button {
-  width: 11.9%;
+  width: 80%;
+  margin-left: 10%;
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
 	border-radius:13px;
 	border:1px solid #4e6096;
@@ -270,11 +287,12 @@ button:hover{
 .knoppen {
   clear: both;
   margin-top: 10px;
+
   /*border: 1px solid black;*/
 }
 
-.button1{
-  /*margin-top: 15px;*/
+/*.button1{
+  margin-top: 15px;
   margin-left: 3.5%;
 }
 
@@ -288,4 +306,195 @@ button:hover{
 
 .button4{
   margin-left: 14.2%;
+}*/
+
+@media (max-width: 1270px){
+  body{
+    background: red;
+  }
+
+  a{
+    font-size: 1em;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .een {
+    top: -280px;
+    left: -120px;
+  }
+
+  .twee {
+    left: 400px;
+    top: -850px;
+  }
+
+  .drie {
+    left: 900px;
+    top: -1320px;
+  }
+
+  #kader{
+    /*margin-top: -2000px;*/
+}
+
+@media (max-width: 1120px){
+  body{
+    background: yellow;
+  }
+
+  a{
+    font-size: 1em;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .albumkader{
+    height: 300px;
+    width: 48%;
+    margin-bottom: 50px;
+
+  }
+
+
+  .een {
+    top: -280px;
+    left: -200px;
+  }
+
+  .twee {
+    left: 450px;
+    top: -850px;
+  }
+
+  .drie {
+    left: 800px;
+    top: -1320px;
+  }
+
+  #bennytitel{
+    margin-top: 150px;
+    margin-bottom: 25px;
+  }
+
+  #aptitel{
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+
+  #joosttitel{
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  #rosannatitel{
+    margin-top: 130px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1000px){
+  body{
+    background: green;
+  }
+
+  a{
+    font-size: 0.9em;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+}
+
+@media (max-width: 850px){
+  body{
+    background: orange;
+  }
+
+  #kader{
+    width: 75%;
+    height: 1400px;
+  }
+
+  a{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 750px){
+  body{
+    background: pink;
+  }
+
+  #bennytitel{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 150px;
+    text-align: center;
+  }
+
+  #aptitel{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+  }
+
+  #joosttitel{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+  }
+
+  #rosannatitel{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+  }
+
+  .artiestfoto{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 25%;
+  }
+
+  .foto{
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    align: center;
+  }
+
+  .links{
+    float: none;
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rechts{
+    float: none;
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #kaderartiesten{
+      height: 2500px;
 }
