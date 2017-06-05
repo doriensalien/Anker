@@ -284,34 +284,9 @@ button:hover{
   border-color: blue;
 }
 
-.knoppen {
-  clear: both;
-  margin-top: 10px;
-
-  /*border: 1px solid black;*/
-}
-
-/*.button1{
-  margin-top: 15px;
-  margin-left: 3.5%;
-}
-
-.button2{
-  margin-left: 14.2%;
-}
-
-.button3{
-  margin-left: 14.2%;
-}
-
-.button4{
-  margin-left: 14.2%;
-}*/
 
 @media (max-width: 1270px){
-  body{
-    background: red;
-  }
+
 
   a{
     font-size: 1em;
@@ -339,9 +314,7 @@ button:hover{
 }
 
 @media (max-width: 1120px){
-  body{
-    background: yellow;
-  }
+
 
   a{
     font-size: 1em;
@@ -394,9 +367,7 @@ button:hover{
 }
 
 @media (max-width: 1000px){
-  body{
-    background: green;
-  }
+
 
   a{
     font-size: 0.9em;
@@ -407,9 +378,7 @@ button:hover{
 }
 
 @media (max-width: 850px){
-  body{
-    background: orange;
-  }
+
 
   #kader{
     width: 75%;
@@ -423,9 +392,6 @@ button:hover{
 }
 
 @media (max-width: 750px){
-  body{
-    background: pink;
-  }
 
   #bennytitel{
     margin-top: 50px;
